@@ -1,0 +1,48 @@
+Type identifier ( ArgList ) CompoundStmt 999
+Arg ArgList’ 999
+, Arg ArgList’ 999
+null 999
+Type identifier 999
+Type IdentList ; 999
+int 999
+float 999
+identifier IdentList’ 999
+, IdentList 999
+null 999
+WhileStmt 999
+Expr ; 999
+IfStmt 999
+CompoundStmt 999
+Declaration 999
+; 999
+while ( Expr ) Stmt 999
+if ( Expr ) Stmt ElsePart 999
+else Stmt 999
+null 999
+{ StmtList } 999
+Stmt StmtList’ 999
+Stmt StmtList’ 999
+null 999
+identifier := Expr 999
+Rvalue 999
+Mag Rvalue’ 999 
+Compare Mag Rvalue’ 999 
+null 999
+"==" 999
+" < " 999
+" > " 999
+" <= " 999
+" >= " 999
+" != " 999
+" <> "  999
+Term Mag’ 999
++ Term Mag’ 999
+- Term Mag’ 999
+null 999
+Factor Term’ 999
+* Factor Term’ 999
+/ Factor Term’ 999
+null 999
+( Expr ) 999
+identifier 999
+number 999
